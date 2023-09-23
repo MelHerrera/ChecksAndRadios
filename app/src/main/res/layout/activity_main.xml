@@ -50,4 +50,14 @@
         android:text="Compras"
         app:layout_constraintStart_toStartOf="@+id/chkVida"
         app:layout_constraintTop_toBottomOf="@+id/chkVida" />
+
+    <TextView
+        android:id="@+id/txtSelecionados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chkShop" />
 </androidx.constraintlayout.widget.ConstraintLayout>
